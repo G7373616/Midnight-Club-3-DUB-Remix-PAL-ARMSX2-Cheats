@@ -1,0 +1,9 @@
+gametitle=Midnight Club 3 - DUB Edition Remix [SLES-53717]
+comment=PAL - Disable Car Damage
+comment=CRC 208183AF
+comment=Converted from known SLES-53717 Codejunkies/CodeBreaker code
+
+// Disable Car Damage
+// Forces the damage routine at 0x002D49D8 to return immediately.
+patch=1,EE,202D49D8,extended,03E00008
+patch=1,EE,202D49DC,extended,00000000

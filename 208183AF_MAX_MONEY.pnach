@@ -1,0 +1,7 @@
+gametitle=Midnight Club 3 - DUB Edition Remix [SLES-53717]
+comment=PAL - Max Money 999,999,999
+comment=CRC 208183AF
+comment=PAL release - tested on ARMSX2
+
+// Max Money - 999,999,999
+patch=1,EE,20800870,extended,3B9AC9FF

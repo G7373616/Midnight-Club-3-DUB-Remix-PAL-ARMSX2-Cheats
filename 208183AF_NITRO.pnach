@@ -1,0 +1,11 @@
+gametitle=Midnight Club 3 - DUB Edition Remix [SLES-53717]
+comment=PAL - Infinite Nitro
+comment=CRC 208183AF
+comment=Ported from SLUS-21355 by exact 64-byte function signature match
+
+// Infinite Nitro - PAL
+patch=1,EE,2028B084,extended,24110005
+patch=1,EE,2028B088,extended,A4510012
+patch=1,EE,2028B090,extended,24060005
+patch=1,EE,2028B07C,extended,24070064
+patch=1,EE,2028B080,extended,A447000E

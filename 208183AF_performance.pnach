@@ -1,0 +1,5 @@
+gametitle=Midnight Club 3 - DUB Edition Remix [SLES-53717]
+comment=PAL - Unlock Performance Upgrades
+comment=CRC 208183AF
+
+patch=1,EE,00619B22,byte,00000001
