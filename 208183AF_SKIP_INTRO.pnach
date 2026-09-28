@@ -1,0 +1,7 @@
+gametitle=Midnight Club 3: DUB Edition Remix (PAL)
+comment=Skip Intro - PAL (SLES-53717 / CRC 208183AF)
+comment=Ported from the Alpha/SLUS skip-intro patch
+comment=Tested on ARMSX2 Android, including together with FreeCam V1
+
+// Skip intro movie
+patch=1,EE,001A9B0C,word,00001021
