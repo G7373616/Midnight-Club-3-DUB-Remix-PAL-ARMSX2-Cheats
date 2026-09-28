@@ -18,10 +18,9 @@ A collection of PNACH cheats and patches for **Midnight Club 3: DUB Edition Remi
 - `208183AF_NO_DAMAGE.pnach` – Disable car damage.
 - `208183AF_performance.pnach` – Unlock performance upgrades.
 - `208183AF_unlockcars.pnach` – Unlock all cars.
-- `208183AF_vehicle_abilities.pnach` – Unlock vehicle abilities.
-
-   - `208183AF_SKIP_INTRO.pnach` - Skip the intro movie on startup.
-  `Freecam/208183AF_FREECAM_PAL_RELEASE_V1.pnach` – PAL FreeCam Release V1.
+- `208183AF_vehicle_abilities.pnach` - Unlock vehicle abilities.
+- `208183AF_SKIP_INTRO.pnach` - Skip the intro movie on startup.
+- `Freecam/208183AF_FREECAM_PAL_RELEASE_V1.pnach` - PAL FreeCam Release V1.
 
 See `Freecam/README.md` for the full FreeCam controls, features and credits.
 
