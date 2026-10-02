@@ -1,0 +1,16 @@
+gametitle=Midnight Club 3 - DUB Edition Remix (PAL) SLES-53717 [208183AF]
+
+// Drive Through Walls - PAL stable version
+// Confirmed by testing:
+// R3 + Up = ON
+// D-Pad Down = OFF
+
+// ON
+patch=1,EE,E002FFFB,extended,006BB442
+patch=1,EE,204DDCB8,extended,10000050
+patch=1,EE,204DEB00,extended,3C010000
+
+// OFF
+patch=1,EE,E002FFBF,extended,006BB442
+patch=1,EE,204DDCB8,extended,10000004
+patch=1,EE,204DEB00,extended,3C013F80

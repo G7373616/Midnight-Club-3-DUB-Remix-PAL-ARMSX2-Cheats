@@ -1,0 +1,12 @@
+gametitle=Midnight Club 3 - DUB Edition Remix (PAL) SLES-53717 [208183AF]
+
+// Disable Broken Motion Blur - PAL TEST
+// Ported from the known SLUS-21355 / CRC 60A42FF5 six-NOP fix.
+// US -> PAL mapping verified against both ELF files: offset -0x50 in this routine.
+
+patch=1,EE,201CC33C,extended,00000000
+patch=1,EE,201CC34C,extended,00000000
+patch=1,EE,201CC384,extended,00000000
+patch=1,EE,201CC388,extended,00000000
+patch=1,EE,201CC390,extended,00000000
+patch=1,EE,201CC398,extended,00000000

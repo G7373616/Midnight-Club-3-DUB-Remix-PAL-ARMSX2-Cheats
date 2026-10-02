@@ -1,0 +1,33 @@
+gametitle=Midnight Club 3 - DUB Edition Remix (PAL) SLES-53717 [208183AF]
+
+// Idiot AI - L3 Toggle
+// Confirmed working on PAL SLES-53717 / CRC 208183AF
+//
+// L3 press #1 = Idiot AI ON
+// L3 press #2 = Idiot AI OFF
+// Releasing L3 keeps the selected state.
+//
+// Controller state : 0x006BB442
+// AI halfword      : 0x0040228A
+// Toggle state     : 0x0061C900
+// L3 latch         : 0x0061C904
+
+// L3 released -> re-arm next press
+patch=1,EE,E001FFFF,extended,006BB442
+patch=1,EE,2061C904,extended,00000000
+
+// L3 pressed, currently OFF -> ON
+patch=1,EE,E005FFFD,extended,006BB442
+patch=1,EE,E0040000,extended,0061C904
+patch=1,EE,E0030000,extended,0061C900
+patch=1,EE,2061C900,extended,00000001
+patch=1,EE,2061C904,extended,00000001
+patch=1,EE,1040228A,extended,00001000
+
+// L3 pressed, currently ON -> OFF
+patch=1,EE,E005FFFD,extended,006BB442
+patch=1,EE,E0040000,extended,0061C904
+patch=1,EE,E0030001,extended,0061C900
+patch=1,EE,2061C900,extended,00000000
+patch=1,EE,2061C904,extended,00000001
+patch=1,EE,1040228A,extended,00001840
