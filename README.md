@@ -12,14 +12,34 @@ A collection of PNACH cheats and patches for **Midnight Club 3: DUB Edition Remi
 ## Included patches
 
 - `208183AF_60FPS_ONLY.pnach` – 50/60 FPS patch. May require around 180% EE Overclock.
+- 
 - `208183AF_customization.pnach` – Unlock customization.
+- 
 - `208183AF_MAX_MONEY.pnach` – Max Money (999,999,999).
+- 
 - `208183AF_NITRO.pnach` – Infinite Nitro.
+- 
 - `208183AF_NO_DAMAGE.pnach` – Disable car damage.
+- 
 - `208183AF_performance.pnach` – Unlock performance upgrades.
+- 
 - `208183AF_unlockcars.pnach` – Unlock all cars.
+- 
 - `208183AF_vehicle_abilities.pnach` - Unlock vehicle abilities.
+- 
 - `208183AF_SKIP_INTRO.pnach` - Skip the intro movie on startup.
+
+- `208183AF_Disable_Motion_Blur.pnach` – Disables the broken motion blur effect.
+
+- `208183AF_Drive_Through_Walls.pnach` – Allows the player vehicle to drive through normally solid walls and obstacles.
+  - **R3 + D-Pad Up** – ON
+  - **D-Pad Down** – OFF
+  - 
+
+- `208183AF_Idiot_AI_L3_TOGGLE.pnach` – Toggles the simplified/dumb opponent AI.
+  - **L3** – ON
+  - **L3 again** – OFF
+  - 
 - `Freecam/208183AF_FREECAM_PAL_RELEASE_V1.pnach` - PAL FreeCam Release V1.
 
 See `Freecam/README.md` for the full FreeCam controls, features and credits.
